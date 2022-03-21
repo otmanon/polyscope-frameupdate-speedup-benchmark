@@ -10,5 +10,5 @@ add_subdirectory(./deps/polyscope/)
 
 
 
-add_library(frame_update_benchmark main.cpp)
+add_executable(frame_update_benchmark main.cpp)
 target_link_libraries(frame_update_benchmark igl::core polyscope Eigen3::Eigen)
